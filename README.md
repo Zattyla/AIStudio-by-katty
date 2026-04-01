@@ -1,4 +1,4 @@
-# 🎤 AI Cover Pipeline (UVR5 + RVC v2)
+# 🎤 AI Studio (UVR5 + RVC v2)
 
 A professional, all-in-one Google Colab pipeline for creating high-quality AI Covers. This project integrates **Ultimate Vocal Remover (UVR5)** for elite audio separation and **RVC v2 (Applio)** for state-of-the-art voice conversion.
 
