@@ -34,5 +34,5 @@ A professional, all-in-one Google Colab pipeline for creating high-quality AI Co
 This tool is for **educational and creative purposes only**. Please respect copyright laws and the ethical use of AI-generated content. Do not use this to create malicious deepfakes or impersonate individuals without consent.
 
 ---
-**Developer:** [newletter](https://github.com/{Zattyla})  
+**Developer:** [newletter](https://github.com/Zattyla)  
 **Credits:** Based on [Applio](https://github.com/IAHispano/Applio) and [UVR5](https://github.com/Anjok07/ultimatevocalremoverui).
