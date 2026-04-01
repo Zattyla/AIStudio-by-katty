@@ -1,28 +1,38 @@
-# 🎵 AI Cover Factory (UVR + RVC)
+# 🎤 AI Cover Pipeline (UVR5 + RVC v2)
 
-Este repositório contém um notebook Google Colab otimizado para a criação de AI Covers, unindo separação de áudio profissional e conversão de voz em um único fluxo de trabalho.
+A professional, all-in-one Google Colab pipeline for creating high-quality AI Covers. This project integrates **Ultimate Vocal Remover (UVR5)** for elite audio separation and **RVC v2 (Applio)** for state-of-the-art voice conversion.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Zattyla/RVC-UVR-Pipeline/blob/main/AIStudio.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/{SEU_USUARIO}/{SEU_REPO}/blob/main/{NOME_DO_ARQUIVO}.ipynb)
 
+## ✨ Key Features
+- **Elite Isolation:** Uses `Kim_Vocal_2` (MDX-Net) to separate vocals and instrumentals with studio precision.
+- **Vocal Cleaning:** Integrated De-reverb models to ensure the AI conversion is crystal clear.
+- **RVC v2 Engine:** Powered by Applio for the most stable and realistic voice cloning.
+- **Automated Workflow:** From raw MP3 to a mixed Final Cover in one single notebook.
+- **Auto-Backup:** Automatically saves your results and models to Google Drive.
+- **Built-in Optimizer**: Easy one-click tool to clear GPU cache and keep the notebook running smoothly.
 
-## ✨ Funcionalidades
-- **Separação de Elite:** Usa modelos MDX-Net (UVR5) para isolar vocais sem restos de bateria ou melodia.
-- **Limpeza Profunda:** Algoritmos de De-reverb integrados para evitar vozes metálicas.
-- **Motor Applio:** Baseado na tecnologia RVC v2 mais estável do mercado.
-- **Mixagem Automática:** Ajuste de ganho e volume para que o cover soe profissional.
+## 🚀 How to Use
+1.  Click the **Open in Colab** badge above.
+2.  Go to `Runtime` -> `Change runtime type` and select **T4 GPU**.
+3.  Run **Step 1 to 5** to set up the environment.
+4.  Upload your song to the `/inputs` folder.
+5.  Follow the instructions in the **User Guide** inside the notebook to generate your cover.
 
-## 🚀 Como usar
-1. Clique no botão **Open in Colab** acima.
-2. Ative a GPU em `Ambiente de Execução` > `Alterar tipo de ambiente`.
-3. Rode as células em ordem (1 a 15).
-4. Suba sua música na pasta `inputs`.
-5. Insira o link do seu modelo RVC favorito e divirta-se!
+## 📂 Project Structure
+- `/inputs`: Place your raw audio files here.
+- `/outputs/uvr`: Separated Vocals and Instrumentals.
+- `/outputs/rvc`: AI-converted voice tracks.
+- `/outputs/FINAL_COVER`: Your finished masterpieces.
 
-## 📂 Estrutura de Pastas
-- `/inputs`: Coloque aqui seus arquivos `.mp3` ou `.wav`.
-- `/outputs/uvr`: Arquivos separados (Vocals/Instrumental).
-- `/outputs/rvc`: Resultado da voz convertida pela IA.
-- `/outputs/FINAL_COVER`: O resultado pronto para postar.
+## 🛠️ Requirements
+- A Google Account (for Colab and Drive).
+- A Voice Model link (from HuggingFace, Pixeldrain, or Drive).
+- Basic understanding of RVC (Pitch/Transpose settings).
+
+## ⚖️ Disclaimer
+This tool is for **educational and creative purposes only**. Please respect copyright laws and the ethical use of AI-generated content. Do not use this to create malicious deepfakes or impersonate individuals without consent.
 
 ---
-**Créditos:** Baseado no motor [Applio](https://github.com/IAHispano/Applio) e modelos UVR5.
+**Developer:** [newletter](https://github.com/{Zattyla})  
+**Credits:** Based on [Applio](https://github.com/IAHispano/Applio) and [UVR5](https://github.com/Anjok07/ultimatevocalremoverui).
