@@ -2,7 +2,7 @@
 
 A professional, all-in-one Google Colab pipeline for creating high-quality AI Covers. This project integrates **Ultimate Vocal Remover (UVR5)** for elite audio separation and **RVC v2 (Applio)** for state-of-the-art voice conversion.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/{SEU_USUARIO}/{SEU_REPO}/blob/main/{NOME_DO_ARQUIVO}.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Zattyla/RVC-UVR-Pipeline/blob/main/AIStudio.ipynb)
 
 ## ✨ Key Features
 - **Elite Isolation:** Uses `Kim_Vocal_2` (MDX-Net) to separate vocals and instrumentals with studio precision.
